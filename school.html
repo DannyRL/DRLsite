@@ -4,6 +4,7 @@
 <head>
 	<title> Daniel Lelis </title>
 
+	<!---connecting bootstrap and css file to html---->
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="style.css" rel="stylesheet" type="text/css">
 
@@ -12,16 +13,20 @@
 
 <body style="background-color: #334a6d">
 
-		<div id="topnav">
-			<li class="outer">Daniel Lelis</li>
-			<li class="outer">
-				<li class="inner"><a href="index.html">Home</a></li>
-				<li class="inner"><a href="about.html">About Me</a></li>
-				<li class="inner"><a href="school.html">Academics</a></li>
-				<li class="inner"><a href="hobbies.html">Hobbies</a></li>
-			</li>
-		</div>
+	<!--Setup for top navbar-->
+			<div id="topnav">
+			<!--Navbar consists of nested list so that my name and the tabs can look different-->
+				<li class="outer">Daniel Lelis</li>
+				<li class="outer">
+				<!--I class together the tabs so I can change the look of the tabs in the css file-->
+					<li class="inner"><a href="index.html">Home</a></li>
+					<li class="inner"><a href="about.html">About Me</a></li>
+					<li class="inner"><a href="school.html">Academics</a></li>
+					<li class="inner"><a href="hobbies.html">Hobbies</a></li>
+				</li>
+			</div>
 
+<!--Main content of each page is within a container of a set width so the text is consistant after certain window size-->
 		<div id="container">
 			<h1> Academics</h1>
 			<br>
@@ -36,12 +41,12 @@
 				<br>
 
 				<h2 style="color: white; font-weight: bold;"> Hardware Credentials</h2>
-				<p style="text-indent: 2em;"> I have experience in analyzing and working with electrical components such as microprocessors, FPGAs, MOSFETs, BJTs, and other miscellaneous components to design and build functional circuitry. I know how to use Altium Suite to design PCBs and Solid Works to create 3D object designs.</p> 
+				<p style="text-indent: 2em;"> I have experience in analyzing and working with electrical components such as microprocessors, FPGAs, MOSFETs, BJTs, and other miscellaneous components to design and build functional circuitry. I know how to use Altium Suite to design PCBs and Solid Works to create 3D object designs.</p>
 
 				<br>
 
 				<h2 style="color: white; font-weight: bold;"> Software Credentials </h2>
-				<p style="text-indent: 2em;"> I have a lot of experience with C and C++ from courses offered at UF and also from working with microprocessors so often. I also know Java, AVR Assembly, and MIPS Assembly. I've taken courses in computer organization, data structures, and am currently taking Operating Systems.   </p> 
+				<p style="text-indent: 2em;"> I have a lot of experience with C and C++ from courses offered at UF and also from working with microprocessors so often. I also know Java, AVR Assembly, and MIPS Assembly. I've taken courses in computer organization, data structures, and am currently taking Operating Systems.   </p>
 
 				<br>
 
@@ -53,14 +58,14 @@
 			</div>
 		</div>
 
-
+<!--set up for footer-->
 		<div id="footer">
 
 			<li class="contact"> Contact Info: </li>
 			<li class="contact"> dannyrl@ufl.edu </li>
 			<li class="contact"> (904)881-8304 </li>
 
-			
+<!--social media buttons use images from online-->
 			<ul class="social-buttons" id="demo1">
 			  <li>
 			    <a href="https://www.facebook.com/oheyitsdaniel" class="brandico-facebook"></a>

@@ -4,6 +4,7 @@
 <head>
 	<title> Daniel Lelis </title>
 
+	<!---connecting bootstrap and css file to html---->
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="style.css" rel="stylesheet" type="text/css">
 
@@ -12,16 +13,20 @@
 
 <body style="background-color: #334a6d">
 
+<!--Setup for top navbar-->
 		<div id="topnav">
+		<!--Navbar consists of nested list so that my name and the tabs can look different-->
 			<li class="outer">Daniel Lelis</li>
 			<li class="outer">
+			<!--I class together the tabs so I can change the look of the tabs in the css file-->
 				<li class="inner"><a href="index.html">Home</a></li>
 				<li class="inner"><a href="about.html">About Me</a></li>
 				<li class="inner"><a href="school.html">Academics</a></li>
 				<li class="inner"><a href="hobbies.html">Hobbies</a></li>
 			</li>
 		</div>
-		
+
+<!--Main content of page-->
 		<div id="main">
 			<p></p>
 			<p></p>
@@ -30,19 +35,22 @@
 			<p style="text-align: center"> Click any of the photos below or use the navigation bar above to learn more about me!</p>
 		</div>
 
+<!--Picture links on main page are a list. Did this so I could format it in the css file-->
+<!--Pictures change on mouseover and return when mouse goes away-->
 		<div id="navbar">
 			<li> <a href="about.html"><img src="pictures/idaw.jpg" onmouseover="this.src='pictures/idaw2.jpg'" onmouseout="this.src='pictures/idaw.jpg'" /></a></li>
-			<li> <a href="hobbies.html"><img src="pictures/car.jpg" onmouseover="this.src='pictures/car2.jpg'" onmouseout="this.src='pictures/car.jpg'" /></a></li>	
-			<li> <a href="school.html"><img src="pictures/board.jpg" onmouseover="this.src='pictures/board2.jpg'" onmouseout="this.src='pictures/board.jpg'" /></a></li>	
+			<li> <a href="hobbies.html"><img src="pictures/car.jpg" onmouseover="this.src='pictures/car2.jpg'" onmouseout="this.src='pictures/car.jpg'" /></a></li>
+			<li> <a href="school.html"><img src="pictures/board.jpg" onmouseover="this.src='pictures/board2.jpg'" onmouseout="this.src='pictures/board.jpg'" /></a></li>
 		</div>
 
+<!--set up for footer-->
 		<div id="footer">
 
 			<li class="contact"> Contact Info: </li>
 			<li class="contact"> dannyrl@ufl.edu </li>
 			<li class="contact"> (904)881-8304 </li>
 
-			
+<!--code for social media buttons was found online-->
 			<ul class="social-buttons" id="demo1">
 			  <li>
 			    <a href="https://www.facebook.com/oheyitsdaniel" class="brandico-facebook"></a>
