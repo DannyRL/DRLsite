@@ -1,0 +1,185 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+h1{
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+p {
+	color: white;
+	font-size: 16px;
+}
+
+img {
+   padding:1px;
+   border: 2px solid black;
+   background-color: black;
+}
+
+li.outer{
+	display: inline;
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	position: relative;
+	left: 20px;
+}
+
+li.inner{
+	display: inline;
+	padding: 5px;
+
+}
+
+li.contact{
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+}
+
+li.school{
+	display: inline;
+	list-style-type: none;
+	padding: 75px;
+
+}
+
+#container{
+	position: relative;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 100px
+
+}
+
+#container ul{
+	text-align: center;
+}
+
+#words{
+	position: relative;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topnav{
+	position: relative;
+	color: white;
+	font-size: 20px;
+	width: 100%;
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background: #6E6E6E;
+	padding: 10px;
+}
+
+#topnav a{
+	color: white;
+	background: #2E2E2E;
+	padding: 10px;
+}
+
+#topnav a:active{
+	color: white;
+	background: #848484;
+	padding: 10px;
+}
+
+#main{
+	background-color: #334a6d;
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navbar{
+	padding-top: 60px;
+	padding-bottom: 80px;
+	background-color: #334a6d;
+	list-style-type: none;
+	text-align: center;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar li a{
+	text-align: center;
+	text-decoration: none;
+	padding: 50px;
+	color: #fff;
+	background-color: #334a6d;
+}
+
+#navbar li a:hover{
+	text-align: center;
+	color: black;
+	background-color: #334a6d;
+}
+
+#footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background: black;
+	padding: 10px;
+}
+
+/* social media buttons in the footer*/
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+ul.social-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul.social-buttons li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+ul.social-buttons li a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
+}
+
+ul.social-buttons li a.brandico-github-text {
+  background-color: #FF4000;
+}
+
+ul.social-buttons li a.brandico-facebook {
+  background-color: #3B5998;
+}
+
+ul.social-buttons li a.brandico-instagram {
+  background-color: #3f729b;
+}
+
+ul.social-buttons li a.brandico-linkedin {
+  background-color: #0e76a8;
+}
+
+ul#demo1 li a {
+  transition: transform 0.2s linear;
+}
+
+ul#demo1 li:hover a {
+  transform: translateY(-10px);
+}
